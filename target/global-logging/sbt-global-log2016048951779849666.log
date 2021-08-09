@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.5 (Temurin Java 1.8.0_302)
+[debug] Load.defaultLoad until apply took 633.2038ms
+[debug]           Load.loadUnit: plugins took 93.8816ms
+[debug]           Load.loadUnit: defsScala took 0.4301ms
+[debug] [Loading] Scanning directory C:\Users\Justin\IdeaProjects\Revature-Twitter-App-Assignment\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Justin\IdeaProjects\Revature-Twitter-App-Assignment\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 24.8181 ms
+[debug]               Load.resolveProject(revature-twitter-app-assignment-build) took 48.9304ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id revature-twitter-app-assignment-build, base: C:\Users\Justin\IdeaProjects\Revature-Twitter-App-Assignment\project, plugins: List(<none>))) took 107.6729ms
+[debug] [Loading] Done in C:\Users\Justin\IdeaProjects\Revature-Twitter-App-Assignment\project, returning: (revature-twitter-app-assignment-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 126.994ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.3761ms
+[debug]         Load.loadUnit(file:/C:/Users/Justin/IdeaProjects/Revature-Twitter-App-Assignment/project/, ...) took 227.7911ms
+[debug]       Load.apply: load took 413.896ms
+[debug]       Load.apply: resolveProjects took 7.3077ms
+[debug]       Load.apply: finalTransforms took 66.8929ms
+[debug]       Load.apply: config.delegates took 11.7503ms
+[debug]       Load.apply: Def.make(settings)... took 650.4478ms
+[debug]       Load.apply: structureIndex took 104.1462ms
+[debug]       Load.apply: mkStreams took 2.4163ms
+[info] loading project definition from C:\Users\Justin\IdeaProjects\Revature-Twitter-App-Assignment\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2370.1524ms
+[debug]     Load.loadUnit: defsScala took 0.0064ms
+[debug] [Loading] Scanning directory C:\Users\Justin\IdeaProjects\Revature-Twitter-App-Assignment
+[debug]       Load.loadUnit: mkEval took 11.2582ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Justin\IdeaProjects\Revature-Twitter-App-Assignment, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 11.489 ms
+[info] loading settings for project revature-twitter-app-assignment from build.sbt ...
+[debug]         Load.resolveProject(revature-twitter-app-assignment) took 9.8589ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id revature-twitter-app-assignment, base: C:\Users\Justin\IdeaProjects\Revature-Twitter-App-Assignment, plugins: List(<none>))) took 23.5498ms
+[debug] [Loading] Done in C:\Users\Justin\IdeaProjects\Revature-Twitter-App-Assignment, returning: (revature-twitter-app-assignment)
+[debug]     Load.loadUnit: loadedProjectsRaw took 4023.1277ms
+[debug]     Load.loadUnit: cleanEvalClasses took 31.7774ms
+[debug]   Load.loadUnit(file:/C:/Users/Justin/IdeaProjects/Revature-Twitter-App-Assignment/, ...) took 6427.3457ms
+[debug] Load.apply: load took 6453.8189ms
+[debug] Load.apply: resolveProjects took 0.4061ms
+[debug] Load.apply: finalTransforms took 19.7061ms
+[debug] Load.apply: config.delegates took 0.984ms
+[debug] Load.apply: Def.make(settings)... took 280.3135ms
+[debug] Load.apply: structureIndex took 57.4285ms
+[debug] Load.apply: mkStreams took 0.0046ms
+[info] set current project to Revature-Twitter-App-Assignment (in build file:/C:/Users/Justin/IdeaProjects/Revature-Twitter-App-Assignment/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-5ef43b8dbf7a1a038d0a
+[debug] Writing bsp connection file
+[info] started sbt server
